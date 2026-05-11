@@ -1,0 +1,21 @@
+{
+  "name": "email-agent-mcp",
+  "displayName": "Email Agent MCP",
+  "description": "Web search for AI agents via DuckDuckGo. Free tier + $19/mo Pro.",
+  "author": "Rumblingb",
+  "repository": "https://github.com/Rumblingb/email-agent-mcp",
+  "homepage": "https://rumblingb.github.io/email-agent-mcp/",
+  "icon": "https://rumblingb.github.io/search-proxy-mcp/favicon.ico",
+  "license": "MIT",
+  "runtime": "python",
+  "command": "python3",
+  "args": [
+    "server.py"
+  ],
+  "env": {
+    "DDG_API_KEY": {
+      "description": "API key for Pro tier (unlimited queries)",
+      "required": false
+    }
+  }
+}
