@@ -1,4 +1,6 @@
-# Email Agent MCP Server
+#      1|# Email Agent MCP Server
+
+[![smithery badge](https://smithery.ai/badge/vishar-rumbling/email-agent-mcp)](https://smithery.ai/servers/vishar-rumbling/email-agent-mcp)
 
 An MCP (Model Context Protocol) server that gives AI agents email access via IMAP and SMTP. Works with Gmail, Outlook, Yahoo, and any standard email provider that supports app passwords.
 
