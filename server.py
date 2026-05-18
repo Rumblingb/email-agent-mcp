@@ -20,7 +20,7 @@ from email.mime.text import MIMEText
 from email.utils import formataddr, parsedate_to_datetime
 from typing import Optional
 
-from mcp.server import Server
+from mcp.server.lowlevel import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent, CallToolResult
 
